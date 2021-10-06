@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dockertestwebapp1arm:
+    image: dockertestwebapp1arm
+    build:
+      context: .
+      dockerfile: ./Dockerfile
